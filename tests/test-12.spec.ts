@@ -21,4 +21,5 @@ await page.getByText('HCS210010').click();
 
 await page.getByText('HCS210010').click();
 //v co thay ko vậy??
+  // viet keu
 });
