@@ -18,5 +18,4 @@ await page.getByRole('textbox', { name: 'Application Number' }).fill('210010');
 await page.getByRole('textbox', { name: 'Application Number' }).press('Enter');
 await page.getByRole('button', { name: 'Search' }).click();
 await page.getByText('HCS210010').click();
-await page.getByText('HCS210010').click();
 });
