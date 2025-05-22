@@ -1,0 +1,11 @@
+import { defineConfig } from '@playwright/test';
+
+export default defineConfig({
+  use: {
+    headless: false,
+    ignoreHTTPSErrors: true,
+    launchOptions: {
+      args: ['--ignore-certificate-errors', '--allow-insecure-localhost']
+    }
+  }
+});
