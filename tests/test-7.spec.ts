@@ -11,4 +11,5 @@ test('Input the invalid code, error is shown', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Verify code' }).fill('7138');
   await page.getByRole('button', { name: 'Submit' }).click();
   await expect(page.getByLabel('Verification code invalid')).toBeVisible();
+    await expect(page.getByLabel('Verification code invalid')).toBeVisible();
 });
